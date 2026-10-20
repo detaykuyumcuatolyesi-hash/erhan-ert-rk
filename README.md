@@ -1,33 +1,31 @@
 # MET DIAMOND Ring Builder
 
-## Çalışan önizleme
-
-`index.html` dosyasını indirip güncel Chrome veya Safari ile açın. Koleksiyon verisi dosyanın içine sıkıştırılmıştır; ürün fotoğrafları internetten yüklenir. Bu depo tam Shopify teması değildir.
-
-20 Ekim 2026 tarihinde kullanıcının verdiği 8 stil ve 9 taş şekli koleksiyonunun tüm sayfaları taranmıştır. Tekilleştirme sonrası 364 görselli ürün ve Base configuration dışındaki 17.472 varyant alınmıştır. Bu, söz konusu 17 koleksiyonun birleşimidir; mağazanın diğer ürünlerini kapsamaz. Vintage koleksiyonu ürün döndürmemiştir.
+`index.html` güncel Chrome veya Safari'de açılan bağımsız önizlemedir. Katalog dosyada sıkıştırılmıştır; fotoğraflar için internet gerekir. Canlı Shopify teması değiştirilmemiştir.
 
 ## Akış
 
-1. Montür veya taş şekliyle başlangıç; koleksiyon üyeliğine göre filtreleme, ürün/SKU araması, fiyat sıralaması, 12 ürünlük sayfalama.
-2. Gerçek ürün galerisi; mevcut varyantlara göre karat, altın ayarı ve rengi; varyant fiyatı USD olarak; US/EU rehber ölçüsü ve D/E/F, VS1/VS2 tercihleri.
-3. Tasarım özeti; varyant kimliğiyle mağaza bağlantısı; indirilebilir JSON özeti.
+Stil → taş şekli ve montür → özelleştirme → tasarım özeti.
 
-Seçimler localStorage ile aynı tarayıcıda korunur. Uyumsuz seçenek kombinasyonlarında seçilen alan korunarak gerçek bir varyantın diğer seçenekleri atanır; özet son seçimi gösterir.
+7 stil: Solitaire, Hidden Halo, East West, Halo, Three Stone, Bezel, Toi et Moi. Vintage kaldırıldı. Kullanıcının gönderdiği 9 taş şekli korunur.
 
-## Sınırlar
+20 Ekim 2026 tarihinde verilen stil/şekil koleksiyonlarının tüm sayfalarından 364 benzersiz görselli ürün alınmıştır. Ürünler arayüzde daha özel stile öncelik verilerek tek grupta gösterilir: Toi et Moi, East West, Bezel, Halo, Three Stone, Hidden Halo, Solitaire. Orijinal koleksiyon üyelikleri veri içinde tutulur. East West ürünleri kaynak açıklamasındaki East West ifadesinden alınır. Sınıflandırılamayan ürünlere stil uydurulmaz.
 
-Bu sürüm satışa entegre değildir. Sepete ekleme yapılmaz; ölçü, renk ve berraklık tercihleri ürün bağlantısıyla otomatik aktarılmaz. Mağazada ayrıca doğrulanmalıdır. Fiyat ve stok katalog taramasına aittir; canlı güncellenmez. Varyant fotoğrafı varsa gösterilir, yoksa ürün galerisi ve açık bir uyarı kullanılır. Metal rengini taklit etmek için fotoğrafa filtre uygulanmaz. US/EU listesi yalnızca rehberde açık eşleşmesi bulunan ölçülerden oluşur ve tüm mağaza ölçülerini kapsamaz. Canlı Shopify mağazası değiştirilmemiştir. `src/configurator.mjs` bu önizlemenin arayüzüne bağlı değildir.
+Gerçek varyant karat/altın seçenekleri ve USD fiyatları kullanılır. US ve EU rehber ölçüleri yan yana bağlı seçim alanlarıdır; yalnızca kaynakta açık eşleşmesi bulunan ölçüler sunulur. D/E/F, VS1/VS2 tercihleri özette saklanır. Özet düzenlenebilir, metin olarak indirilebilir ve izin veren tarayıcılarda kopyalanabilir.
 
-## Kontrol
+## Altın rengi ve fotoğraflar
 
-Gerçek Chromium üzerinde katalog sayısı, sayfalama, arama, ürün seçimi, fiyat, EU geçişi, renk/berraklık özeti, varyant bağlantısı, seçimlerin saklanması, boş Vintage sonucu ve mobil yatay taşma kontrolleri geçti. Desktop ve 390 px mobil ekran görüntüleri incelendi. Bu ortamdaki görsel erişimi için tarayıcı sistemin mevcut ağ proxy ayarıyla çalıştırıldı.
+Seçilen renk hem büyük görsele hem küçük galeriye hem de tasarım özetine uygulanır. Önceki rengin fotoğrafı seçim değiştiğinde tutulmaz.
 
-## Kalan işler
+Eşleştirme, gerçek varyantın bağlı fotoğrafı veya ürün kimliği/karat/metal rengi açıkça yazan kaynak dosya adına dayanır. Kullanıcının seçtiği yedi örneğin sarı altın orijinal kareleri görsel olarak doğrulanmıştır. Fotoğraflara renk filtresi uygulanmaz.
 
-- Horizon taslak temasına bölüm entegrasyonu ve gerçek sepet bağlantısı.
-- Ölçü, renk ve berraklığın mağazadaki ürün seçenekleriyle doğrulanmış aktarımı.
-- Tam US/EU ölçü tablosu ve sipariş ölçü eşleştirmesi.
-- Eksik varyant görsel eşleştirmeleri; boş Vintage koleksiyonu kontrolü.
-- Canlı fiyat/stok yenilemesi.
+364 üründen beyaz altın için 190, sarı altın için 193, rose altın için 183 üründe güvenilir renk eşleşmesi vardır. Bir ürünün seçilen renkte fotoğrafı yoksa boş görsel alanı ve açık bir eksik fotoğraf bildirimi gösterilir; başka renk sunulmaz. Referans karatı seçimden farklıysa ekranda belirtilir. Karatı bilinmeyen orijinal karelerde boyutun ayrıca doğrulanmadığı belirtilir. Renk eşleştirmesi tam varyant/karat/ayar görsel doğrulamasının yerine geçmez.
+
+## Kontroller
+
+Chromium üzerinde beyaz/sarı/rose seçimleri, renge göre filtrelenmiş küçük görseller, her seçimde özet fotoğrafının eşitliği, küçük fotoğraf seçildikten sonra renk değiştirme, eksik renk fotoğrafında hem özelleştirme hem özette yanlış görselin gizlenmesi test edildi. Ayrıca seçim/arama/sayfalama, fiyat, bağlı US/EU ölçü alanları, tercihler, özet indirme/düzenleme ve mobil yatay taşma kontrolleri geçti.
+
+## Kalan entegrasyon
+
+Bu önizleme sepete eklemez. Ölçü, renk ve berraklık tercihlerinin mağazadaki sipariş alanlarına doğrulanmış aktarımı; Horizon tema entegrasyonu; eksik renk medyaları; tam US/EU sipariş ölçü tablosu; canlı fiyat/stok yenilemesi hâlâ tamamlanmalıdır. Ürün bağlantısı yalnızca gerçek varyant kimliğini taşır. Katalog fiyatı güncel satış teklifi değildir.
 
 Ölçü rehberi: https://us.zendiamond.com/pages/ringsizechartus
