@@ -1,0 +1,1318 @@
+{
+  "sections": {
+    "hero_jVaWmY": {
+      "type": "hero",
+      "blocks": {
+        "text_YLPk4p": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<p>Brilliance, made for you.</p>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-heading--family)",
+            "font_size": "2.5rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "{{ settings.color_palette.foreground }}",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_9dMPBf": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "ENGAGEMENT RINGS",
+            "link": "shopify://collections/met-engagement-rings",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "custom_button_background": "{{ settings.color_palette.foreground }}",
+            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "link_text_color": "",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        },
+        "button_4UWxjg": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "SHOP JEWELLERY",
+            "link": "shopify://collections/fine-jewellery",
+            "open_in_new_tab": false,
+            "style_class": "button-secondary",
+            "custom_button_background": "{{ settings.color_palette.foreground }}",
+            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "link_text_color": "",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_YLPk4p",
+        "button_9dMPBf",
+        "button_4UWxjg"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/met-diamond-design-studio.png",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "image_1_mobile": "shopify://shop_images/Zarif_Pirlanta_ve_Romantik_Cicekler.png",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-start",
+        "align_baseline": true,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 29,
+        "section_width": "page-width",
+        "section_height": "medium",
+        "section_height_custom": 13,
+        "background_color": "rgba(0,0,0,0)",
+        "toggle_overlay": false,
+        "overlay_color": "#12121266",
+        "overlay_style": "solid",
+        "gradient_direction": "to bottom",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 100,
+        "padding-block-end": 72
+      },
+      "disabled": true
+    },
+    "product_list_fa6P9H": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "name": "t:names.header",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": false,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_list_text_YFtzcL": {
+              "type": "_product-list-text",
+              "name": "t:names.collection_title",
+              "settings": {
+                "text": "<p>Shop Engagement Rings</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_list_button_MWeP9V": {
+              "type": "_product-list-button",
+              "name": "t:names.product_list_button",
+              "settings": {
+                "label": "View all",
+                "open_in_new_tab": false,
+                "style_class": "link",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "link_text_color": "",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_list_text_YFtzcL",
+            "product_list_button_MWeP9V"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "name": "t:names.product_card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "product_card_gallery_677WP3": {
+              "type": "_product-card-gallery",
+              "name": "t:names.product_card_media",
+              "settings": {
+                "image_ratio": "adapt",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "product_title_YXxMTj": {
+              "type": "product-title",
+              "name": "t:names.product_title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price_JQzVV4": {
+              "type": "price",
+              "name": "t:names.product_price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "text_color": "",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "product_card_gallery_677WP3",
+            "product_title_YXxMTj",
+            "price_JQzVV4"
+          ]
+        }
+      },
+      "disabled": true,
+      "name": "t:names.product_list",
+      "settings": {
+        "collection": "all",
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "rows_gap": 24,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "horizontal_alignment": "flex-start",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "collection_list_637fjm": {
+      "type": "collection-list",
+      "blocks": {
+        "group_KawLxA": {
+          "type": "group",
+          "name": "t:names.header",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_PPWwfC": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h4>Explore Our Jewelry Collections<br/><br/></h4>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 16,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_PPWwfC"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "name": "t:names.collection_card",
+          "static": true,
+          "settings": {
+            "placement": "below_image",
+            "horizontal_alignment": "center",
+            "vertical_alignment": "flex-start",
+            "collection_card_gap": 7,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection_title_7CAHhJ": {
+              "type": "collection-title",
+              "name": "t:names.collection_title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": true,
+                "background_color": "#ffffff",
+                "text_color": "{{ settings.color_palette.foreground }}",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "name": "t:names.collection_card_image",
+              "static": true,
+              "settings": {
+                "image_ratio": "adapt",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "collection_title_7CAHhJ"
+          ]
+        }
+      },
+      "block_order": [
+        "group_KawLxA"
+      ],
+      "disabled": true,
+      "name": "t:names.collections_grid",
+      "settings": {
+        "collection_list": [
+          "lab-grown-diamond-engagement-rings",
+          "wedding-bands",
+          "lab-grown-diamond-bracelets",
+          "lab-grown-diamond-earrings",
+          "lab-grown-diamond-necklaces"
+        ],
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "columns": 3,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 8,
+        "bento_gap": 8,
+        "rows_gap": 8,
+        "max_collections": 4,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 12,
+        "background_color": "",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "collection_list_aThUT7": {
+      "type": "collection-list",
+      "blocks": {
+        "group_GhUpQR": {
+          "type": "group",
+          "name": "t:names.header",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "name": "t:names.collection_card",
+          "static": true,
+          "settings": {
+            "placement": "below_image",
+            "horizontal_alignment": "center",
+            "vertical_alignment": "flex-start",
+            "collection_card_gap": 7,
+            "background_color": "",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0
+          },
+          "blocks": {
+            "collection_title_tqnzd8": {
+              "type": "collection-title",
+              "name": "t:names.collection_title",
+              "settings": {
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": true,
+                "background_color": "#ffffff",
+                "text_color": "{{ settings.color_palette.foreground }}",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
+              },
+              "blocks": {}
+            },
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "name": "t:names.collection_card_image",
+              "static": true,
+              "settings": {
+                "image_ratio": "square",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_color": "",
+                "border_radius": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "collection_title_tqnzd8"
+          ]
+        }
+      },
+      "block_order": [
+        "group_GhUpQR"
+      ],
+      "disabled": true,
+      "name": "t:names.collections_grid",
+      "settings": {
+        "collection_list": [
+          "oval-lab-grown-diamond-engagement-rings",
+          "pear-lab-grown-diamond-engagement-rings",
+          "princess-lab-grown-diamond-engagement-rings",
+          "radiant-lab-grown-diamond-engagement-rings",
+          "round-lab-grown-diamond-engagement-rings",
+          "marquise-lab-grown-diamond-engagement-rings",
+          "emerald-lab-grown-diamond-engagement-rings"
+        ],
+        "layout_type": "grid",
+        "carousel_on_mobile": false,
+        "columns": 5,
+        "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
+        "columns_gap": 16,
+        "bento_gap": 8,
+        "rows_gap": 20,
+        "max_collections": 4,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 12,
+        "background_color": "",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "section_F4UPqp": {
+      "type": "section",
+      "blocks": {
+        "group_PBGcqN": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-end",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "background_media": "image",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image": "shopify://shop_images/Ustanin_Elinde_Pirlanta_Zanaati.png",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "hero-apparel-2",
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40
+          },
+          "blocks": {
+            "text_73JTyc": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h5>THE ART OF JEWELRY</h5>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "#ffffff",
+                "background": true,
+                "background_color": "#123d32",
+                "corner_radius": 0,
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 12,
+                "padding-inline-end": 12
+              },
+              "blocks": {}
+            },
+            "spacer_g3UFHM": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 16,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_73JTyc",
+            "spacer_g3UFHM"
+          ]
+        }
+      },
+      "block_order": [
+        "group_PBGcqN"
+      ],
+      "disabled": true,
+      "name": "t:names.split_showcase",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 0,
+        "section_width": "full-width",
+        "section_height": "medium",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "section_jdE4Rc": {
+      "type": "section",
+      "blocks": {
+        "group_HcR6Nd": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_gR6R7J": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<p>EXPERT CRAFTSMANSHIP</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_qYzQw9": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "text": "<p>Every MET DIAMOND creation reflects exceptional craftsmanship, meticulous attention to detail, and a passion for timeless elegance.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_gR6R7J",
+            "text_qYzQw9"
+          ]
+        },
+        "group_VWHA8p": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_7aHBpw": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<p>EXCEPTIONAL VALUE</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_hCW7Vq": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "text": "<p>Discover exceptional beauty and uncompromising quality with MET DIAMOND's exquisite lab-grown diamonds, designed to offer remarkable value without sacrificing elegance.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_7aHBpw",
+            "text_hCW7Vq"
+          ]
+        },
+        "group_9C8cCn": {
+          "type": "group",
+          "name": "t:names.column",
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 8,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 10,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "text_QtfNCG": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<p>WORLDWIDE SHIPPING</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h4",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_pXiw6X": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "text": "<p>Discover MET DIAMOND from wherever you are. We offer international shipping to bring our exquisite jewelry to customers around the world.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_QtfNCG",
+            "text_pXiw6X"
+          ]
+        }
+      },
+      "block_order": [
+        "group_HcR6Nd",
+        "group_VWHA8p",
+        "group_9C8cCn"
+      ],
+      "disabled": true,
+      "name": "t:names.multicolumn",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "flex-start",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "{{ settings.color_palette.color2 }}",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 30,
+        "padding-block-end": 30
+      }
+    },
+    "custom_liquid_VaFqb8": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<style>.met-category-home{max-width:1440px;margin:auto;padding:24px 20px 40px}.met-category-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.met-category-card{display:block;background:#fff;text-align:center;color:#000;text-decoration:none;padding-bottom:18px;overflow:hidden}.met-category-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;background:#f7f7f8}.met-category-card h2{font:400 16px/1.5 var(--font-heading--family);letter-spacing:.05em;margin:18px 8px 10px;text-transform:uppercase;color:#000}.met-category-card span{display:inline-block;border-bottom:1px solid currentColor;padding-bottom:4px;color:#151542;font-family:var(--font-heading--family);font-size:13px;font-weight:400;letter-spacing:.07em}.met-category-card:focus-visible{outline:2px solid #151542;outline-offset:4px}@media(max-width:749px){.met-category-home{padding:20px 16px 32px}.met-category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.met-category-card img{aspect-ratio:1}.met-category-card h2{font-size:15px;margin:14px 6px 8px}.met-category-card{padding-bottom:14px}#MainContent>.hero-wrapper:first-child .hero{min-height:0!important}#MainContent>.hero-wrapper:first-child .hero__container{display:block!important;padding:0!important;min-height:0!important}#MainContent>.hero-wrapper:first-child .hero__media-grid{position:relative!important;inset:auto!important;width:100%!important;height:230px!important;min-height:0!important}#MainContent>.hero-wrapper:first-child .hero__media-wrapper{height:230px!important}#MainContent>.hero-wrapper:first-child .hero__media{position:relative!important;width:100%!important;height:230px!important;object-fit:cover!important;object-position:center!important}#MainContent>.hero-wrapper:first-child .hero__content-wrapper{position:relative!important;grid-area:auto!important;width:100%!important;padding:22px 20px!important;gap:14px!important;align-items:center!important;text-align:center;background:#fff}#MainContent>.hero-wrapper:first-child .hero__content-wrapper .text-block{font-size:28px!important;line-height:1.15!important;text-align:center!important;max-width:100%!important}#MainContent>.hero-wrapper:first-child .hero__content-wrapper .text-block p{font-size:28px!important;line-height:1.15!important;text-align:center!important;margin:0!important}#MainContent>.hero-wrapper:first-child .hero__content-wrapper .button-secondary{display:none!important}#MainContent>.hero-wrapper:first-child .hero__content-wrapper .button{font-size:12px!important;min-height:42px!important;padding:12px 22px!important}}</style><section class=\"met-category-home\" aria-label=\"{{ 'met_home.shop_by_category' | t }}\"><div class=\"met-category-grid\"><a class=\"met-category-card\" href=\"{{ collections['met-engagement-rings'].url }}\"><img src=\"https://cdn.shopify.com/s/files/1/0792/8102/9223/files/met-category-engagement-studio-v2-18oct2026.png?v=1792345657&width=960\" width=\"640\" height=\"480\" loading=\"lazy\" alt=\"{{ 'met_home.engagement' | t }}\"><h2>{{ 'met_home.engagement' | t }}</h2><span>{{ 'met_home.shop_now' | t }}</span></a><a class=\"met-category-card\" href=\"{{ collections['met-wedding-rings'].url }}\"><img src=\"https://cdn.shopify.com/s/files/1/0792/8102/9223/files/met-category-wedding-studio-v2-18oct2026.png?v=1792345664&width=960\" width=\"640\" height=\"480\" loading=\"lazy\" alt=\"{{ 'met_home.wedding' | t }}\"><h2>{{ 'met_home.wedding' | t }}</h2><span>{{ 'met_home.shop_now' | t }}</span></a><a class=\"met-category-card\" href=\"{{ collections['fine-jewellery'].url }}\"><img src=\"https://cdn.shopify.com/s/files/1/0792/8102/9223/files/met-category-fine-jewellery-studio-v2-18oct2026.png?v=1792345671&width=960\" width=\"640\" height=\"480\" loading=\"lazy\" alt=\"{{ 'met_home.fine_jewellery' | t }}\"><h2>{{ 'met_home.fine_jewellery' | t }}</h2><span>{{ 'met_home.shop_now' | t }}</span></a><a class=\"met-category-card\" href=\"{{ collections['met-earrings'].url }}\"><img src=\"https://cdn.shopify.com/s/files/1/0792/8102/9223/files/met-category-earrings-diamond-white-gold-v4-18oct2026.png?v=1792346884&width=960\" width=\"640\" height=\"480\" loading=\"lazy\" alt=\"{{ 'met_home.earrings' | t }}\"><h2>{{ 'met_home.earrings' | t }}</h2><span>{{ 'met_home.shop_now' | t }}</span></a></div></section>",
+        "background_color": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "179197665123bc7c48": {
+      "type": "_blocks",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_yDALYq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": false,
+            "reviews_selection": "store_reviews",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "star_rating": "all",
+            "show_review_media": false,
+            "display_order": "most_recent",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 30,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 3,
+            "show_reviewer_name": true,
+            "show_product_name": false,
+            "hide_arrows_mobile": false,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f9f9f9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 0,
+            "header_text": "Google reviews",
+            "show_average_rating": true,
+            "rating_display": "show_nothing"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_yDALYq"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "179200820649925167": {
+      "type": "_blocks",
+      "disabled": true,
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "179200980551bce3b5": {
+      "type": "_blocks",
+      "blocks": {
+        "ot_instagram_feed_ot_easy_instagram_feed_gyg9hg": {
+          "type": "shopify://apps/ot-instagram-feed/blocks/ot-easy-instagram-feed/75d29d92-c4c5-4091-87e8-4dde82e3828c",
+          "settings": {
+            "feed_id": "nwji1mdb1792009178000",
+            "title": "MET DIAMOND · Instagram",
+            "show_tagged_posts": false,
+            "titleColor": "#000000",
+            "titleSize": 28,
+            "title_tag": "h2",
+            "profileTextColor": "#000000",
+            "description": "",
+            "desColor": "#000000",
+            "section_full_width_desktop": false,
+            "show_divider_desktop": false,
+            "top_padding_desktop": 32,
+            "bottom_padding_desktop": 32,
+            "section_full_width_mobile": false,
+            "show_divider_mobile": false,
+            "use_title_settings": false,
+            "titleSizeMobile": 24,
+            "top_padding_mobile": 0,
+            "bottom_padding_mobile": 0,
+            "bss_custom_code": "",
+            "bss_advanced_custom_code": ""
+          }
+        }
+      },
+      "block_order": [
+        "ot_instagram_feed_ot_easy_instagram_feed_gyg9hg"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "background_media": "none",
+        "background_color": "",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_color": "",
+        "border_radius": 0,
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "met_home_video_banner": {
+      "type": "met-home-video",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/vp/7edd3dde654145128ab6d8dfb8904275/7edd3dde654145128ab6d8dfb8904275.SD-480p-0.9Mbps-97994889.mp4",
+        "poster": "shopify://shop_images/met-diamond-home-video-poster.jpg",
+        "brand": "MET DIAMOND",
+        "slogan": "YOUR MOMENT. YOUR BRILLIANCE.",
+        "primary_label": "ENGAGEMENT RINGS",
+        "primary_link": "shopify://collections/met-engagement-rings",
+        "secondary_label": "SHOP JEWELLERY",
+        "secondary_link": "shopify://collections/fine-jewellery"
+      }
+    },
+    "met_home_editorial_white_navy": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>.met-editorial-2026{max-width:1440px;margin:0 auto;padding:64px 32px;background:#fff}.met-editorial-2026 h2{text-align:center;font-family:var(--font-heading--family);font-size:clamp(26px,3vw,40px);font-weight:400;margin:0 0 32px}.met-editorial-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.met-editorial-card{text-decoration:none;color:inherit;display:block}.met-editorial-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}.met-editorial-card h3{font-family:var(--font-heading--family);font-size:24px;font-weight:400;text-align:center;margin:20px 0 12px}.met-editorial-card span{display:table;margin:auto;border-bottom:1px solid currentColor;padding-bottom:4px;font-size:13px;letter-spacing:.08em}.met-editorial-card:focus-visible{outline:2px solid #1a2a3f;outline-offset:6px}@media(max-width:749px){.met-editorial-2026{padding:40px 20px}.met-editorial-grid{grid-template-columns:1fr;gap:36px}.met-editorial-card img{aspect-ratio:3/2}.met-editorial-card h3{font-size:23px}}</style><section class=\"met-editorial-2026\" aria-label=\"{{ 'met_home.explore_met' | t }}\"><h2>{{ 'met_home.explore_met' | t }}</h2><div class=\"met-editorial-grid\">{% if false %}<a class=\"met-editorial-card\" href=\"{{ collections['start-with-a-setting'].url }}\"><img src=\"https://cdn.shopify.com/s/files/1/0792/8102/9223/files/met-diamond-design-studio.png?v=1791749226\" width=\"1536\" height=\"1024\" loading=\"lazy\" alt=\"{{ 'met_home.studio_alt' | t }}\"><h3>{{ 'met_home.design_ring' | t }}</h3><span>{{ 'met_home.explore' | t }}</span></a>{% endif %}<a class=\"met-editorial-card\" href=\"{{ collections['fine-jewellery'].url }}\"><img src=\"https://cdn.shopify.com/s/files/1/0792/8102/9223/files/met-diamond-fine-jewellery-editorial.png?v=1791749250\" width=\"1536\" height=\"1024\" loading=\"lazy\" alt=\"{{ 'met_home.jewellery_alt' | t }}\"><h3>{{ 'met_home.fine_jewellery' | t }}</h3><span>{{ 'met_home.explore' | t }}</span></a><a class=\"met-editorial-card\" href=\"{{ collections['met-bracelets'].url }}\"><img src=\"https://cdn.shopify.com/s/files/1/0792/8102/9223/files/met-diamond-bracelets-green-marble.png?v=1791749163\" width=\"1536\" height=\"1024\" loading=\"lazy\" alt=\"{{ 'met_home.bracelets_alt' | t }}\"><h3>{{ 'met_home.bracelets' | t }}</h3><span>{{ 'met_home.explore' | t }}</span></a></div></section>",
+        "background_color": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "met_under_500": {
+      "type": "met-under-500",
+      "settings": {
+        "image": "shopify://shop_images/met-diamond-under-500-collection-18oct2026.png",
+        "products": [
+          "met-bracelet-wb-0082",
+          "met-bracelet-wb-0084",
+          "met-bracelet-wb-0083"
+        ],
+        "collection": "under-500"
+      }
+    },
+    "met_ring_launch": {
+      "type": "met-ring-launch",
+      "settings": {
+        "heading": "Your ring. Your story.",
+        "text": "Create a lab grown diamond ring that reflects your story. Explore seven styles, choose your diamond and finish with your favourite gold.",
+        "button": "Design Your Ring"
+      }
+    }
+  },
+  "order": [
+    "met_home_video_banner",
+    "met_ring_launch",
+    "hero_jVaWmY",
+    "product_list_fa6P9H",
+    "collection_list_637fjm",
+    "collection_list_aThUT7",
+    "section_F4UPqp",
+    "section_jdE4Rc",
+    "custom_liquid_VaFqb8",
+    "met_under_500",
+    "met_home_editorial_white_navy",
+    "179197665123bc7c48",
+    "179200820649925167",
+    "179200980551bce3b5"
+  ]
+}
