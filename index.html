@@ -10,12 +10,12 @@ const optionLabel=n=>({'Center stone carat':'Merkez taş karatı','Gold purity':
 const label=v=>({'White Gold':'Beyaz altın','Yellow Gold':'Sarı altın','Rose Gold':'Rose altın'}[v]||v);
 
 function renderStyleCards(){
- $('#style-cards').replaceChildren();
+ $('#style-cards').replaceChildren();const usedImages=new Set();
  for(const [name,handle] of Object.entries(data.styles)){
   const products=data.products.filter(p=>p.styles.includes(name));
   const b=document.createElement('button');b.type='button';b.className='card style-card';b.setAttribute('aria-label',name+' stilini seç');b.setAttribute('aria-pressed',String(state.style===name));
-  const src=data.styleImages?.[name]||products[0]?.images[0];
-  if(src){const img=document.createElement('img');img.src=src;img.alt=name+' koleksiyonu';img.loading='lazy';b.append(img)}
+  const exact=products.find(p=>p.title.toLocaleLowerCase('tr').includes(name.toLocaleLowerCase('tr'))&&!usedImages.has(p.images[0]));const representative=exact||products.find(p=>!usedImages.has(p.images[0]))||products[0];const src=data.styleImages?.[name]||representative?.images[0];if(src)usedImages.add(src);
+  if(src){const img=document.createElement('img');img.src=src;img.alt=name+' koleksiyonu';img.loading='eager';b.append(img)}
   else{const empty=document.createElement('div');empty.className='style-no-image';empty.textContent=name;b.append(empty)}
   const caption=document.createElement('span');caption.className='caption';const title=document.createElement('strong');title.textContent=name;const count=document.createElement('span');count.className='money';count.textContent=products.length?products.length+' montür · Keşfedin →':'Koleksiyonda henüz ürün yok';caption.append(title,count);b.append(caption);
   b.onclick=()=>{state.style=name;state.shape='';state.query='';state.page=0;state.product=null;state.options=[];activeVariant=null;$('#search').value='';renderStyleCards();renderCatalog();setStep(0)};
