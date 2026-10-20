@@ -1,4 +1,4 @@
-export const SHAPES = Object.freeze(['Round','Oval','Emerald','Pear','Radiant','Princess','Marquise']);
+export const SHAPES = Object.freeze(['Round','Oval','Emerald','Pear','Radiant','Princess','Marquise','Cushion','Asscher']);
 export function matchingConfigurations(catalog, selection = {}) {
   return catalog.filter(row => row.verified === true && row.diamondType === 'lab-grown' &&
     SHAPES.includes(row.shape) && ['D','E','F'].includes(row.color) &&
